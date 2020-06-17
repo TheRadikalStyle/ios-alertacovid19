@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yMr-Eh-yBn">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Contacto-->
+        <scene sceneID="83F-Ej-qh9">
+            <objects>
+                <viewController title="Contacto" id="jrQ-Cw-F3H" customClass="ContactoViewController" customModule="AlertaCOVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IHT-8C-COy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GbY-Eg-DjH" userLabel="stack_social">
+                                <rect key="frame" x="8" y="8" width="398" height="82"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mantente informado en nuestras redes oficiales" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Q1-c9-I0V">
+                                        <rect key="frame" x="0.0" y="0.0" width="398" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gWr-xc-WDZ">
+                                        <rect key="frame" x="0.0" y="26" width="398" height="24"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebook" translatesAutoresizingMaskIntoConstraints="NO" id="Mr1-CA-HHl">
+                                                <rect key="frame" x="0.0" y="0.0" width="199" height="24"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/SecretariaSaludNL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rzk-uh-5pI">
+                                                <rect key="frame" x="199" y="0.0" width="199" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="JYq-lI-8eX">
+                                        <rect key="frame" x="0.0" y="58" width="398" height="24"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="earth" translatesAutoresizingMaskIntoConstraints="NO" id="R02-2N-6Mf">
+                                                <rect key="frame" x="0.0" y="0.0" width="199" height="24"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="saludnl.gob.mx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Feq-un-y1D">
+                                                <rect key="frame" x="199" y="0.0" width="199" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1F-GK-QaQ" userLabel="view_call_070" customClass="RoundUIView" customModule="AlertaCOVID19" customModuleProvider="target">
+                                <rect key="frame" x="8" y="105.99999999999999" width="398" height="47.333333333333329"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="DA7-ZF-bUz">
+                                        <rect key="frame" x="0.0" y="0.0" width="398" height="47.333333333333336"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone_grey" translatesAutoresizingMaskIntoConstraints="NO" id="kiY-1V-GJa">
+                                                <rect key="frame" x="0.0" y="0.0" width="398" height="24"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Llama en caso de dudas 070" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIK-0i-EKo">
+                                                <rect key="frame" x="0.0" y="28" width="398" height="19.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93325150010000002" green="0.93338567019999996" blue="0.93322223419999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="DA7-ZF-bUz" firstAttribute="top" secondItem="E1F-GK-QaQ" secondAttribute="top" id="1Op-lo-Rrg"/>
+                                    <constraint firstItem="DA7-ZF-bUz" firstAttribute="leading" secondItem="E1F-GK-QaQ" secondAttribute="leading" id="RhN-ds-ijm"/>
+                                    <constraint firstAttribute="bottom" secondItem="DA7-ZF-bUz" secondAttribute="bottom" id="bkR-xW-lPV"/>
+                                    <constraint firstAttribute="trailing" secondItem="DA7-ZF-bUz" secondAttribute="trailing" id="cQp-aU-Qp6"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWd-jC-6vr" userLabel="view_acerca" customClass="RoundUIView" customModule="AlertaCOVID19" customModuleProvider="target">
+                                <rect key="frame" x="8" y="169.33333333333334" width="398" height="106.00000000000003"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Sd8-jo-57w">
+                                        <rect key="frame" x="0.0" y="0.0" width="398" height="106"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acerca de" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NB6-Ct-xvc">
+                                                <rect key="frame" x="0.0" y="0.0" width="398" height="19.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_about" translatesAutoresizingMaskIntoConstraints="NO" id="AU7-1M-jSZ">
+                                                <rect key="frame" x="0.0" y="23.333333333333314" width="398" height="36"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alerta COVID-19" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdO-g4-40G">
+                                                <rect key="frame" x="0.0" y="63.333333333333321" width="398" height="19.333333333333336"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJG-Yn-F1V">
+                                                <rect key="frame" x="0.0" y="86.666666666666657" width="398" height="19.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93325150010000002" green="0.93338567019999996" blue="0.93322223419999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Sd8-jo-57w" firstAttribute="top" secondItem="dWd-jC-6vr" secondAttribute="top" id="2ZY-Nh-Jpf"/>
+                                    <constraint firstAttribute="bottom" secondItem="Sd8-jo-57w" secondAttribute="bottom" id="Bq9-pw-FZJ"/>
+                                    <constraint firstItem="Sd8-jo-57w" firstAttribute="leading" secondItem="dWd-jC-6vr" secondAttribute="leading" id="Zdh-Kg-NAQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="Sd8-jo-57w" secondAttribute="trailing" id="nIc-Uz-kQN"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="GbY-Eg-DjH" firstAttribute="leading" secondItem="MPf-TP-Ops" secondAttribute="leading" constant="8" id="6Ca-se-7v1"/>
+                            <constraint firstItem="MPf-TP-Ops" firstAttribute="trailing" secondItem="GbY-Eg-DjH" secondAttribute="trailing" constant="8" id="MjS-Rw-YGy"/>
+                            <constraint firstItem="MPf-TP-Ops" firstAttribute="trailing" secondItem="dWd-jC-6vr" secondAttribute="trailing" constant="8" id="Shz-Xs-qBY"/>
+                            <constraint firstItem="E1F-GK-QaQ" firstAttribute="top" secondItem="GbY-Eg-DjH" secondAttribute="bottom" constant="16" id="aV7-cn-Ndh"/>
+                            <constraint firstItem="GbY-Eg-DjH" firstAttribute="top" secondItem="MPf-TP-Ops" secondAttribute="top" constant="8" id="i63-7R-6DQ"/>
+                            <constraint firstItem="dWd-jC-6vr" firstAttribute="top" secondItem="E1F-GK-QaQ" secondAttribute="bottom" constant="16" id="iex-Om-0Xg"/>
+                            <constraint firstItem="MPf-TP-Ops" firstAttribute="trailing" secondItem="E1F-GK-QaQ" secondAttribute="trailing" constant="8" id="j5F-Om-LgA"/>
+                            <constraint firstItem="E1F-GK-QaQ" firstAttribute="leading" secondItem="MPf-TP-Ops" secondAttribute="leading" constant="8" id="vVI-Bw-DWc"/>
+                            <constraint firstItem="dWd-jC-6vr" firstAttribute="leading" secondItem="MPf-TP-Ops" secondAttribute="leading" constant="8" id="xiq-yl-mIn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MPf-TP-Ops"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Contacto" image="phone_grey" id="4O0-cO-b7q"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="stackView_facebook" destination="gWr-xc-WDZ" id="O7G-Kv-OvB"/>
+                        <outlet property="stackView_webpage" destination="JYq-lI-8eX" id="vT0-ux-INj"/>
+                        <outlet property="stackview_about" destination="dWd-jC-6vr" id="o3n-jZ-Wgy"/>
+                        <outlet property="viewCallContainer" destination="E1F-GK-QaQ" id="u1N-jN-bwJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="87S-B0-Hny" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1043" y="665"/>
+        </scene>
+        <!--Cuestionario COVID19-->
+        <scene sceneID="oq5-0z-Uvl">
+            <objects>
+                <viewController id="9xk-ho-EJu" customClass="CuestionarioViewController" customModule="AlertaCOVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OW5-rw-iUq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7bM-ZS-OqM">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="xhg-Xt-imI">
+                                <rect key="frame" x="188.66666666666666" y="349.66666666666669" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="7bM-ZS-OqM" firstAttribute="top" secondItem="Z3u-1F-TgJ" secondAttribute="top" id="25N-xR-oXU"/>
+                            <constraint firstItem="Z3u-1F-TgJ" firstAttribute="trailing" secondItem="7bM-ZS-OqM" secondAttribute="trailing" id="9yc-qQ-xo5"/>
+                            <constraint firstItem="7bM-ZS-OqM" firstAttribute="leading" secondItem="Z3u-1F-TgJ" secondAttribute="leading" id="Bd6-T8-KlN"/>
+                            <constraint firstItem="xhg-Xt-imI" firstAttribute="centerX" secondItem="OW5-rw-iUq" secondAttribute="centerX" id="Kxl-Y8-qKc"/>
+                            <constraint firstItem="Z3u-1F-TgJ" firstAttribute="bottom" secondItem="7bM-ZS-OqM" secondAttribute="bottom" id="umP-pY-2yi"/>
+                            <constraint firstItem="xhg-Xt-imI" firstAttribute="centerY" secondItem="OW5-rw-iUq" secondAttribute="centerY" id="zBU-07-0NI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Z3u-1F-TgJ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cuestionario COVID19" image="file_edit" id="p0X-uF-lh3"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="xhg-Xt-imI" id="Umz-Gh-CDE"/>
+                        <outlet property="cuestionarioWebkit" destination="7bM-ZS-OqM" id="6ah-BX-isc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zr8-Bs-gdH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1043" y="-74"/>
+        </scene>
+        <!--Mapa-->
+        <scene sceneID="ph8-0R-ILm">
+            <objects>
+                <viewController id="a8a-sU-8gd" customClass="MapViewController" customModule="AlertaCOVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xr8-pb-Eqz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dBk-x7-8li" customClass="RoundUIView" customModule="AlertaCOVID19" customModuleProvider="target">
+                                <rect key="frame" x="16" y="16" width="382" height="16"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jan-Ng-T96">
+                                        <rect key="frame" x="8" y="8" width="366" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Jan-Ng-T96" secondAttribute="bottom" constant="8" id="8r9-6V-rQc"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jan-Ng-T96" secondAttribute="trailing" constant="8" id="OQB-4Q-TLN"/>
+                                    <constraint firstItem="Jan-Ng-T96" firstAttribute="top" secondItem="dBk-x7-8li" secondAttribute="top" constant="8" id="da5-eY-Z0j"/>
+                                    <constraint firstItem="Jan-Ng-T96" firstAttribute="leading" secondItem="dBk-x7-8li" secondAttribute="leading" constant="8" id="nx8-NX-pDA"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view alpha="0.90000000000000002" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="LqH-g8-62K" customClass="RoundUIView" customModule="AlertaCOVID19" customModuleProvider="target">
+                                <rect key="frame" x="32" y="40" width="350" height="37"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="934-NG-pJ3">
+                                        <rect key="frame" x="4" y="4" width="342" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <state key="normal" title="Detalle de casos">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="ShowResumenCasos:" destination="a8a-sU-8gd" eventType="touchUpInside" id="C95-JV-cBM"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.74111062289999996" green="0.74121862650000003" blue="0.74108701939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="934-NG-pJ3" firstAttribute="top" secondItem="LqH-g8-62K" secondAttribute="top" constant="4" id="2KK-Va-d06"/>
+                                    <constraint firstItem="934-NG-pJ3" firstAttribute="leading" secondItem="LqH-g8-62K" secondAttribute="leading" constant="4" id="8Vh-f2-8eQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="934-NG-pJ3" secondAttribute="bottom" constant="4" id="RK9-9h-ds5"/>
+                                    <constraint firstAttribute="trailing" secondItem="934-NG-pJ3" secondAttribute="trailing" constant="4" id="ook-Jp-0h3"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="LqH-g8-62K" firstAttribute="leading" secondItem="KA1-8Y-cCU" secondAttribute="leading" constant="32" id="BF9-P9-nBQ"/>
+                            <constraint firstItem="LqH-g8-62K" firstAttribute="top" secondItem="dBk-x7-8li" secondAttribute="bottom" constant="8" id="FAW-Ah-sBS"/>
+                            <constraint firstItem="KA1-8Y-cCU" firstAttribute="trailing" secondItem="LqH-g8-62K" secondAttribute="trailing" constant="32" id="MBl-UF-Ggu"/>
+                            <constraint firstItem="dBk-x7-8li" firstAttribute="top" secondItem="KA1-8Y-cCU" secondAttribute="top" constant="16" id="TGm-Qc-Tze"/>
+                            <constraint firstItem="dBk-x7-8li" firstAttribute="leading" secondItem="KA1-8Y-cCU" secondAttribute="leading" constant="16" id="j6j-wv-f2L"/>
+                            <constraint firstItem="KA1-8Y-cCU" firstAttribute="trailing" secondItem="dBk-x7-8li" secondAttribute="trailing" constant="16" id="vW8-cF-0Oc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KA1-8Y-cCU"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Mapa" image="map_marker" id="OHH-Pl-jwb"/>
+                    <connections>
+                        <outlet property="lastmodifyLabel" destination="Jan-Ng-T96" id="nbX-VB-OzJ"/>
+                        <outlet property="lastmodifyView" destination="dBk-x7-8li" id="PPm-yc-YN4"/>
+                        <outlet property="resumenCasosButton" destination="934-NG-pJ3" id="I6n-9d-CJ0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uUk-ce-5FD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1044.375" y="-859.85915492957747"/>
+        </scene>
+        <!--Resumen de casos-->
+        <scene sceneID="f0U-W9-Csf">
+            <objects>
+                <tableViewController storyboardIdentifier="resumendecasosview" title="Resumen de casos" id="bqM-us-VcF" customClass="ResumenCasosTableViewController" customModule="AlertaCOVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="yxU-uF-y47">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detalle de casos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wfP-S8-PId" userLabel="resumen_casos_label_title">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1lI-HE-5ED">
+                            <rect key="frame" x="0.0" y="119.66666603088379" width="414" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="Regresar">
+                                <color key="titleColor" red="0.3188169897" green="0.18705868719999999" blue="0.65862733129999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="buttonRegresar:" destination="bqM-us-VcF" eventType="touchUpInside" id="JMd-KD-hgm"/>
+                            </connections>
+                        </button>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellDataResumen" id="4YE-RV-Pcf" customClass="ResumenCellTableViewCell" customModule="AlertaCOVID19" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="72" width="414" height="19.666666030883789"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4YE-RV-Pcf" id="fgC-uH-6fF" userLabel="resumen_casos_contentview">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="19.666666030883789"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="BgS-5S-sje">
+                                            <rect key="frame" x="8" y="0.0" width="398" height="19.666666666666668"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAS-LN-fGx" userLabel="resumen_casos_label_municipios">
+                                                    <rect key="frame" x="0.0" y="0.0" width="318.33333333333331" height="19.666666666666668"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fef-lp-skZ" userLabel="resumen_casos_label_casos">
+                                                    <rect key="frame" x="318.33333333333331" y="0.0" width="79.666666666666686" height="19.666666666666668"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="fef-lp-skZ" firstAttribute="width" secondItem="BgS-5S-sje" secondAttribute="width" multiplier="0.2" id="Fsv-im-1Gl"/>
+                                                <constraint firstItem="cAS-LN-fGx" firstAttribute="width" secondItem="BgS-5S-sje" secondAttribute="width" multiplier="0.8" id="jBv-xt-KXT"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="BgS-5S-sje" firstAttribute="top" secondItem="fgC-uH-6fF" secondAttribute="top" id="MhF-SM-0zv"/>
+                                        <constraint firstAttribute="trailing" secondItem="BgS-5S-sje" secondAttribute="trailing" constant="8" id="aQ8-H2-aM6"/>
+                                        <constraint firstItem="BgS-5S-sje" firstAttribute="leading" secondItem="fgC-uH-6fF" secondAttribute="leading" constant="8" id="tMW-T1-WHo"/>
+                                        <constraint firstAttribute="bottom" secondItem="BgS-5S-sje" secondAttribute="bottom" id="zu5-Co-oNY"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="cellLabelCasos" destination="fef-lp-skZ" id="9X5-Ey-h9c"/>
+                                    <outlet property="cellLabelMunicipio" destination="cAS-LN-fGx" id="TcV-qa-Y5j"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="bqM-us-VcF" id="ICy-rV-kPF"/>
+                            <outlet property="delegate" destination="bqM-us-VcF" id="8AT-uu-aCY"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="ghl-yg-qLg"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nbJ-YZ-7EA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tit-Q0-dMH">
+                    <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </objects>
+            <point key="canvasLocation" x="-168.75" y="-860.91549295774644"/>
+        </scene>
+        <!--Alerta COVID19-->
+        <scene sceneID="7WC-cv-GPf">
+            <objects>
+                <tabBarController title="Alerta COVID19" id="yMr-Eh-yBn" customClass="MainViewController" customModule="AlertaCOVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AY0-Cx-dZO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <outlet property="bottomTabBar" destination="AY0-Cx-dZO" id="pyP-GV-xFr"/>
+                        <segue destination="a8a-sU-8gd" kind="relationship" relationship="viewControllers" id="JAe-GL-4b8"/>
+                        <segue destination="9xk-ho-EJu" kind="relationship" relationship="viewControllers" id="9Kg-Eg-XQb"/>
+                        <segue destination="jrQ-Cw-F3H" kind="relationship" relationship="viewControllers" id="f3n-Pv-aNT"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bhf-2z-Nrm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1989" y="-73"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="app_about" width="36" height="36"/>
+        <image name="earth" width="24" height="24"/>
+        <image name="facebook" width="24" height="24"/>
+        <image name="file_edit" width="24" height="24"/>
+        <image name="map_marker" width="24" height="24"/>
+        <image name="phone_grey" width="24" height="24"/>
+    </resources>
+</document>
