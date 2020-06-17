@@ -1,0 +1,11 @@
+target 'AlertaCOVID19' do
+ use_frameworks!
+ pod 'Alamofire', '~> 5.0'
+ pod 'SwiftyJSON', '~>4.0'
+ pod 'Intercom'
+ pod 'Firebase/Analytics'
+ pod 'Firebase/Crashlytics'
+ pod 'Firebase/Messaging'
+ pod 'GoogleMaps'
+ pod 'Google-Maps-iOS-Utils'
+end
